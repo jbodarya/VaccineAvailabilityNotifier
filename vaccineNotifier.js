@@ -63,7 +63,6 @@ function getSlotsForDate(DATE) {
         })
         .catch(function (error) {
             console.log(error);
-            done;
         });
 }
 
