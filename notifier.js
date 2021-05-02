@@ -23,9 +23,9 @@ function createTemplate(slotDetails, date){
         Available Capacity: ${slot.available_capacity} doses available <br/>
         Vaccine: ${slot.vaccine} <br/>
         Slots Available: <br/>`
-        for(const x of slot.slots){
-            slotBody = `${slotBody} ${x} <br/>`
-        }
+       // for(const x of slot.slots){
+        //    slotBody = `${slotBody} ${x} <br/>`
+       // }
         slotBody = `${slotBody} <br/><br/>`
         message = `${message} ${slotBody}`
     }
